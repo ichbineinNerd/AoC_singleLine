@@ -1,0 +1,1 @@
+print ([x * y * z for x in map(int, Input.split()) for y in map(int, Input.split()) for z in map(int, Input.split()) if x + y + z == 2020])[0]
